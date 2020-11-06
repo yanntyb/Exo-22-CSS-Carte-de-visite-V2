@@ -1,34 +1,52 @@
-.ficheIdentite {
-    background-image: url("http://www.supportduweb.com/page/images/uploads/gifAsm_purbWptdSoue346.png");
+.carte {
+    width: 400px;
+    height: 200px;
+    background-image: url("http://www.supportduweb.com/page/images/uploads/gifAsm_roSpduetubpW351.png");
     background-size: cover;
-    width: 250px;
-    border-radius: 5px;
     position: absolute;
+    border-radius: 20px;
+    -webkit-box-shadow: 4px 4px 8px 2px #000000;
+    -moz-box-shadow: 4px 4px 8px 2px #000000;
+    box-shadow: 4px 4px 8px 2px #000000;
 }
 
-img {
+h1 {
+    font-size: 20px;
+    padding-top: 20px;
+    color: lightgrey;
+    text-shadow: 3px 3px 21px rgba(194, 185, 12, 1);
+    text-align: center;
+}
+
+#logo {
+    font-size: 30px;
+    color: goldenrod;
     position: absolute;
-    right: 10px;
-    border: 2px solid green;
-    border-radius: 10px;
+    top: 60px;
+    left: 20px;
+    text-shadow: 3px 3px 21px rgba(194, 185, 12, 1);
+    border: gold 1px;
+}
+
+.information {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    color: lightgrey;
+    text-shadow: 3px 3px 21px rgba(194, 185, 12, 1);
+}
+
+hr {
+    background-color: gold;
+    height: 4px;
+    border: none;
 }
 
 th {
-    color: red;
-    padding: 10px;
-    border: solid 1px darkslategrey;
-}
-
-li {
-    list-style: none;
-    color: blue;
-}
-
-a {
-    text-decoration: none;
-    color: crimson;
+    text-align: center;
 }
 
 td {
-    color: slateblue;
+    text-align: left;
+    padding-left: 10px;
 }
